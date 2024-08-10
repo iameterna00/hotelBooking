@@ -46,7 +46,7 @@
         } else {
           $booking_fetch = mysqli_fetch_assoc($booking_res);
 
-          if($booking_fetch['booking_status'] == "Completed")
+          if($booking_fetch['booking_status'] == "booked")
           {
             echo<<<data
               <div class="col-12 px-4">
